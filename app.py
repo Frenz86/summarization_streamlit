@@ -40,7 +40,6 @@ def cloud(image, text, max_word, max_font, random):
 
 def main():
     st.write("# Text Summarization with a WordCloud")
-    st.write("[By Boadzie Daniel](https://boadzie.surge.sh)")
     max_word = st.sidebar.slider("Max words", 200, 3000, 200)
     max_font = st.sidebar.slider("Max Font Size", 50, 350, 60)
     random = st.sidebar.slider("Random State", 30, 100, 42 )
